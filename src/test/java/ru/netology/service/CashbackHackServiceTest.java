@@ -47,7 +47,7 @@ public class CashbackHackServiceTest {
     public void shouldCalculateRemainIfAmountIs0() {
         CashbackHackService service = new CashbackHackService();
         int amount = 0;
-        int expected = 1000;
+        int expected = 0;
 
         int actual = service.remain(amount);
 
